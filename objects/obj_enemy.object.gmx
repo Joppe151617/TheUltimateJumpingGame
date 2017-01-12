@@ -90,7 +90,10 @@ if (place_meeting(x,y,obj_player)) {
         instance_destroy();
         score += 10;
     } else {
-        game_restart();
+        with (obj_player) {
+            instance_destroy();
+        }
+        instance_create(0,0,obj_gameover);
     }
 }
 </string>

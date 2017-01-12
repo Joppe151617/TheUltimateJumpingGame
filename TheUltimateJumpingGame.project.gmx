@@ -60,6 +60,7 @@
     <object>objects\obj_back</object>
     <object>objects\obj_highscore</object>
     <object>objects\obj_higscore</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\_rm_menu</room>
