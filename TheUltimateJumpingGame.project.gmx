@@ -16,6 +16,8 @@
     <sprite>sprites\spr_movingplatorm</sprite>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_aaniOff</sprite>
+    <sprite>sprites\spr_wasdOn</sprite>
+    <sprite>sprites\spr_wasdOff</sprite>
     <sprite>sprites\spr_aaniOn</sprite>
     <sprite>sprites\spr_help</sprite>
     <sprite>sprites\spr_highscore</sprite>
@@ -46,8 +48,8 @@
     <object>objects\obj_platform</object>
     <object>objects\obj_movingplatform</object>
     <object>objects\obj_pisteet</object>
-    <object>objects\obj_aaniOff</object>
     <object>objects\obj_aaniOn</object>
+    <object>objects\obj_wasdOn</object>
     <object>objects\obj_help</object>
     <object>objects\obj_helpNote</object>
     <object>objects\obj_menu</object>
@@ -61,6 +63,7 @@
     <object>objects\obj_highscore</object>
     <object>objects\obj_higscore</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_muuttujat</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\_rm_menu</room>
