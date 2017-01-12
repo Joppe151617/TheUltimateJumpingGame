@@ -14,12 +14,28 @@
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_movingplatorm</sprite>
+    <sprite>sprites\spr_play</sprite>
+    <sprite>sprites\spr_aaniOff</sprite>
+    <sprite>sprites\spr_aaniOn</sprite>
+    <sprite>sprites\spr_help</sprite>
+    <sprite>sprites\spr_highscore</sprite>
+    <sprite>sprites\spr_options</sprite>
+    <sprite>sprites\spr_quit</sprite>
+    <sprite>sprites\spr_raha</sprite>
+    <sprite>sprites\spr_back</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_perus</background>
     <background>background\bgr_toka</background>
+    <background>background\bg_valikko</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_small</font>
+    <font>fonts\fnt_large</font>
+    <font>fonts\fnt_nimi</font>
+    <font>fonts\fnt_timer</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_maa</object>
     <object>objects\obj_player</object>
@@ -29,10 +45,29 @@
     <object>objects\obj_portal</object>
     <object>objects\obj_platform</object>
     <object>objects\obj_movingplatform</object>
+    <object>objects\obj_pisteet</object>
+    <object>objects\obj_aaniOff</object>
+    <object>objects\obj_aaniOn</object>
+    <object>objects\obj_help</object>
+    <object>objects\obj_helpNote</object>
+    <object>objects\obj_menu</object>
+    <object>objects\obj_ohjeet</object>
+    <object>objects\obj_options</object>
+    <object>objects\obj_optionsNote</object>
+    <object>objects\obj_play</object>
+    <object>objects\obj_quit</object>
+    <object>objects\obj_raha</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_highscore</object>
+    <object>objects\obj_higscore</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
-    <room>rooms\room1</room>
+    <room>rooms\_rm_menu</room>
+    <room>rooms\rm_lvl1</room>
+    <room>rooms\rm_lvl2</room>
+    <room>rooms\rm_help</room>
+    <room>rooms\rm_highscore</room>
+    <room>rooms\rm_options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
