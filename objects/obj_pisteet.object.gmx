@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.elamat = 2;
+            <string>//global.elamat = 2;
 </string>
           </argument>
         </arguments>
@@ -54,7 +54,7 @@ draw_set_color(c_black);
 draw_set_font(fnt_small);
 
 draw_text(32,32,"Score: " + string(score));
-draw_text(32,54,"Lives: " + string(global.elamat));
+//draw_text(32,54,"Lives: " + string(global.elamat));
 
 </string>
           </argument>
@@ -62,20 +62,6 @@ draw_text(32,54,"Lives: " + string(global.elamat));
       </action>
     </event>
     <event eventtype="9" enumb="82">
-      <action>
-        <libid>1</libid>
-        <id>223</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_current_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -93,6 +79,7 @@ draw_text(32,54,"Lives: " + string(global.elamat));
           <argument>
             <kind>1</kind>
             <string>score = 0;
+room_goto(rm_lvl1);
 </string>
           </argument>
         </arguments>

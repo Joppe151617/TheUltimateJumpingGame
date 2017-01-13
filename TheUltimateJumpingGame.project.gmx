@@ -14,22 +14,28 @@
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_movingplatorm</sprite>
-    <sprite>sprites\spr_play</sprite>
-    <sprite>sprites\spr_aaniOff</sprite>
-    <sprite>sprites\spr_wasdOn</sprite>
-    <sprite>sprites\spr_wasdOff</sprite>
-    <sprite>sprites\spr_aaniOn</sprite>
-    <sprite>sprites\spr_help</sprite>
-    <sprite>sprites\spr_highscore</sprite>
-    <sprite>sprites\spr_options</sprite>
-    <sprite>sprites\spr_quit</sprite>
+    <sprite>sprites\spr_seina</sprite>
     <sprite>sprites\spr_raha</sprite>
-    <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_tyhja</sprite>
+    <sprite>sprites\spr_maali</sprite>
+    <sprites name="menu">
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_options</sprite>
+      <sprite>sprites\spr_highscore</sprite>
+      <sprite>sprites\spr_help</sprite>
+      <sprite>sprites\spr_aaniOff</sprite>
+      <sprite>sprites\spr_aaniOn</sprite>
+      <sprite>sprites\spr_wasdOff</sprite>
+      <sprite>sprites\spr_wasdOn</sprite>
+      <sprite>sprites\spr_play</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_perus</background>
     <background>background\bgr_toka</background>
     <background>background\bg_valikko</background>
+    <background>background\bg_tausta</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -48,22 +54,27 @@
     <object>objects\obj_platform</object>
     <object>objects\obj_movingplatform</object>
     <object>objects\obj_pisteet</object>
-    <object>objects\obj_aaniOn</object>
-    <object>objects\obj_wasdOn</object>
-    <object>objects\obj_help</object>
-    <object>objects\obj_helpNote</object>
-    <object>objects\obj_menu</object>
     <object>objects\obj_ohjeet</object>
-    <object>objects\obj_options</object>
-    <object>objects\obj_optionsNote</object>
-    <object>objects\obj_play</object>
-    <object>objects\obj_quit</object>
     <object>objects\obj_raha</object>
-    <object>objects\obj_back</object>
-    <object>objects\obj_highscore</object>
-    <object>objects\obj_higscore</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_muuttujat</object>
+    <object>objects\obj_seina</object>
+    <object>objects\obj_tyhja</object>
+    <object>objects\obj_maali</object>
+    <object>objects\obj_voitto</object>
+    <objects name="menu">
+      <object>objects\obj_wasdOn</object>
+      <object>objects\obj_aaniOn</object>
+      <object>objects\obj_help</object>
+      <object>objects\obj_helpNote</object>
+      <object>objects\obj_options</object>
+      <object>objects\obj_optionsNote</object>
+      <object>objects\obj_play</object>
+      <object>objects\obj_highscore</object>
+      <object>objects\obj_higscore</object>
+      <object>objects\obj_quit</object>
+      <object>objects\obj_back</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\_rm_menu</room>
