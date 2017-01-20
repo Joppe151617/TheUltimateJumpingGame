@@ -3,12 +3,12 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-10</depth>
-  <persistent>0</persistent>
-  <parentName>obj_gameover</parentName>
+  <depth>0</depth>
+  <persistent>-1</persistent>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="10" enumb="80">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,23 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-draw_set_font(fnt_large);
-draw_set_colour(c_red);
-draw_text(room_width/2,room_height/2 - 100,"YOU WIN!!!");
-draw_set_font(fnt_small);
-draw_text(room_width/2,room_height/2 - 50,"press R to restart, Q to quit, M to menu");
-draw_set_colour(c_black);
-
-xx = 416;
-yy = 360;
-
-for (i = 0; i &lt; 10; i++) {
-    yy += 30;
-    draw_text(xx, yy, string(global.score_array[i, 0]));
-    draw_text(xx + 200, yy, string(global.score_array[i, 1]));
-}
+            <string>instance_create(x,y,obj_pause);
 </string>
           </argument>
         </arguments>

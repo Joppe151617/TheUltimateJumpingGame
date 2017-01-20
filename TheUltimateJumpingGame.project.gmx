@@ -11,6 +11,7 @@
     <sprite>sprites\spr_speedUp</sprite>
     <sprite>sprites\spr_player_speed</sprite>
     <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_enemyRight</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_movingplatorm</sprite>
@@ -18,6 +19,7 @@
     <sprite>sprites\spr_raha</sprite>
     <sprite>sprites\spr_tyhja</sprite>
     <sprite>sprites\spr_maali</sprite>
+    <sprite>sprites\spr_maaPohja</sprite>
     <sprites name="menu">
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_quit</sprite>
@@ -62,6 +64,9 @@
     <object>objects\obj_tyhja</object>
     <object>objects\obj_maali</object>
     <object>objects\obj_voitto</object>
+    <object>objects\obj_maaPohja</object>
+    <object>objects\obj_control</object>
+    <object>objects\obj_pause</object>
     <objects name="menu">
       <object>objects\obj_wasdOn</object>
       <object>objects\obj_aaniOn</object>
